@@ -1,14 +1,14 @@
 {
   "extends": ["plugin:prettier/recommended", "react-app", "react-app/jest", "plugin:prettier/recommended"],
   "rules": {
-    // "prettier/prettier": ["error", {
-    //     "tabWidth": 4,
-    //     "semi": true,
-    //     "singleQuote": false,
-    //     "printWidth": 100,
-    //     "endOfLine": "auto"
-    //   }
-    // ],
+    "prettier/prettier": ["error", {
+        "tabWidth": 4,
+        "semi": true,
+        "singleQuote": false,
+        "printWidth": 100,
+        "endOfLine": "auto"
+      }
+    ],
     "no-undef": "error",
     "no-restricted-globals": ["error", "event", "self"],
     "no-const-assign": ["error"],
@@ -35,5 +35,10 @@
         "ignoreReadBeforeAssign": true
       }
     ]
+  },
+  "globals": {
+    "AOS": "readonly",
+    "$": "readonly",
+    "jQuery": "readonly"
   }
 }
