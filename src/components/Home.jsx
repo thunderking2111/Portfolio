@@ -63,14 +63,18 @@ const Home = () => {
                                     <h2>A Software Engineer</h2>
                                     <p>
                                         <a
-                                            href="https://www.youtube.com/@RishabhMishraOfficial"
-                                            className="btn btn-primary py-3 px-4"
+                                            href="https://www.linkedin.com/in/rahul-prajapati211/"
+                                            className="btn btn-primary py-3 px-4 mr-1"
+                                            target="_blank"
+                                            rel="noreferrer"
                                         >
-                                            YouTube
+                                            LinkedIn
                                         </a>
                                         <a
                                             href="https://github.com/thunderking2111"
                                             className="btn btn-white btn-outline-white py-3 px-4"
+                                            target="_blank"
+                                            rel="noreferrer"
                                         >
                                             My works
                                         </a>

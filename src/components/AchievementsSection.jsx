@@ -1,3 +1,5 @@
+import bg_1 from "./../lib/images/bg_1.jpg";
+
 const AchievementsSection = () => {
     return (
         <section
@@ -51,22 +53,22 @@ const AchievementsSection = () => {
 
             <div
                 className="ftco-section ftco-hireme img margin-top"
-                style={{ backgroundImage: "url(images/bg_1.jpg)" }}
+                style={{ backgroundImage: `url(${bg_1})` }}
             >
                 <div className="row justify-content-center">
                     <div className="col-md-7 ftco-animate text-center">
                         <h2>
-                            More projects on<span> Github </span>{" "}
+                            More projects on<span> Github </span>
                         </h2>
                         <div className="heading">
-                            {" "}
                             <h4>
-                                {" "}
-                                I love to solve business problems &amp; uncover hidden data stories{" "}
+                                I love to solve business problems &amp; uncover hidden data stories
                             </h4>
                             <br />
                             <p>
                                 <a
+                                    target="_blank"
+                                    rel="noreferrer"
                                     href="https://github.com/thunderking2111"
                                     className="btn btn-primary py-3 px-5"
                                 >

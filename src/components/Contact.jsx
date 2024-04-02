@@ -1,3 +1,6 @@
+const RESUME_DRIVE_LINK =
+    "https://drive.google.com/uc?export=download&id=1F6wSja88phfNltJVHdFtj96aTiLcjaeC";
+
 const Contact = () => {
     return (
         <section className="ftco-section contact-section ftco-no-pb" id="contact-section">
@@ -49,7 +52,9 @@ const Contact = () => {
                             </div>
                             <h3 className="mb-4">Download Resume</h3>
                             <p>
-                                <button className="btn btn-white btn-link px-4">resumelink</button>
+                                <a href={RESUME_DRIVE_LINK} className="btn btn-white btn-link px-4">
+                                    resumelink
+                                </a>
                             </p>
                         </div>
                     </div>
@@ -60,13 +65,10 @@ const Contact = () => {
                         <div className="row justify-content-center">
                             <div className="col-md-7 ftco-animate text-center">
                                 <h2>
-                                    Have a<span> Question? </span>{" "}
-                                    <a
-                                        href="https://forms.gle/uLaTShUKXraAvHJ77"
-                                        className="btn btn-primary py-3 px-5"
-                                    >
+                                    Have a<span> Question? </span>
+                                    <a href="/" className="btn btn-primary py-3 px-5">
                                         Click Here
-                                    </a>{" "}
+                                    </a>
                                 </h2>
                             </div>
                         </div>
@@ -74,12 +76,20 @@ const Contact = () => {
                         <ul className="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
                             <li className="ftco-animate normal-txt">Find me on </li>
                             <li className="ftco-animate">
-                                <a href="https://github.com/thunderking2111">
+                                <a
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    href="https://github.com/thunderking2111"
+                                >
                                     <span className="icon-github"></span>
                                 </a>
                             </li>
                             <li className="ftco-animate">
-                                <a href="https://www.linkedin.com/in/rahul-prajapati211/">
+                                <a
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    href="https://www.linkedin.com/in/rahul-prajapati211/"
+                                >
                                     <span className="icon-linkedin"></span>
                                 </a>
                             </li>
