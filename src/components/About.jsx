@@ -111,12 +111,13 @@ const About = () => {
                                 <div className="col-md-12 heading-section ftco-animate">
                                     <h1 className="big">About</h1>
                                     <h2 className="mb-4">About Me</h2>
-
                                     <p>
-                                        With over 2 years of comprehensive experience in the field
-                                        of software engineering & development, accompanied by a
-                                        bachelor's degree in Computer Science. Proficient in Web
-                                        Development, Desktop Application Development, .
+                                        I'm a software engineer with over 2 years of experience and
+                                        a Bachelor's degree in Computer Science. Based in Gujarat, I
+                                        specialize in crafting innovative solutions using Python,
+                                        Django, React, and vanilla JavaScript. With a passion for
+                                        problem-solving and a dedication to excellence, I thrive on
+                                        tackling challenges and driving innovation in every project.
                                     </p>
                                     <ul className="about-info mt-4 px-md-0 px-2">
                                         <li className="d-flex">
